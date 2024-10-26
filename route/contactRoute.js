@@ -16,7 +16,7 @@ router.post('/contact',(req,res)=>{
             port: 465,
            auth:{
             user: 'sanjeev8400yadav@gmail.com',
-            pass: 'spbipupjmypodnqg'
+            pass: process.env.pass
            } 
 
         })
